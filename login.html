@@ -1,0 +1,39 @@
+<html>
+<head>
+<title style="text-align:center">Restaurant Management System</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<!--<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">-->
+<!--<link href="bootstrap-4.1.1-dist/css/bootstrap.min.css" rel="stylesheet">-->
+<!--<script src="bootstrap-4.1.1-dist/js/bootstrap.min.js"></script> -->
+</head>
+<body>
+<h1 style="text-align:center"> Restaurant Management System</h1>
+
+
+<form action="verify.php" method="POST" name="login">
+
+<div class="form">
+	<div class="login">
+	<h4>Login</h4>
+	</div>
+	<div class="formdata">
+	<input class="textfield" type="text" name="username" placeholder="Username...." required>
+	</div>
+	<div class="formdata">
+	<input class="textfield" type="password" name="password" placeholder="Password...." required>
+	</div>
+	<div class="formdata">
+	<select class="textfield" name="dropdown">
+	<option value="Admin" selected>Admin</option>
+	<option value="Manager">Manager</option>
+	</select>
+	</div>
+	<div id="bt">
+		<input type="submit" name="submit" value="Login" action="verify.php">
+	</div>
+</div>
+
+</form>
+</body>
+
+</html>
